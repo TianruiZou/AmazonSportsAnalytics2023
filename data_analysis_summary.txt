@@ -1,0 +1,39 @@
+Amazon UK Product Data Analysis Summary
+1. Dataset Overview
+Total number of products: 2,222,742
+
+Total number of categories: 296
+
+2. Price Analysis
+Average price: £94.26
+
+Median price: £19.90
+
+Minimum price: £0.00
+
+Maximum price: £100,000.00
+
+Number of products priced below £1: 3,284
+
+Number of products priced above £1,000: 38,750
+
+3. Top Categories
+Sports & Outdoors: 826,076 products
+
+Skin Care: 18,755 products
+
+Fragrances: 18,563 products
+
+Make-up: 18,453 products
+
+Manicure & Pedicure Products: 17,212 products
+
+Handmade Clothing, Shoes & Accessories: 16,707 products
+
+Men: 16,384 products
+
+Women: 16,284 products
+
+Handmade Gifts: 15,790 products
+
+Handmade Artwork: 15,297 products

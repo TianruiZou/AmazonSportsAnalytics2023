@@ -1,0 +1,82 @@
+Amazon UK Product Data – Further Analysis Summary
+1. Data Cleaning
+Original dataset dimensions: 2,222,742 rows × 8 columns
+
+Post-filtering dataset dimensions: 2,180,708 rows × 11 columns
+
+Number of products removed: 42,034 (1.89%)
+
+2. Price Analysis
+Filter condition: Prices between £1–£1000
+
+Price range distribution:
+
+£1–10: 554,429 products (25.42%)
+
+£10–20: 586,643 products (26.90%)
+
+£20–50: 549,423 products (25.19%)
+
+£50–100: 217,360 products (9.97%)
+
+£100–200: 123,853 products (5.68%)
+
+£200–500: 101,569 products (4.66%)
+
+£500–1000: 47,299 products (2.17%)
+
+3. Product Tier Analysis
+Tier definitions:
+
+Premium: Rating ≥ 4.5 and Reviews ≥ 1000
+
+Quality: Rating ≥ 4.0 and Reviews ≥ 100
+
+Standard: Rating ≥ 3.5 and Reviews ≥ 10
+
+Basic: Others
+
+Tier distribution:
+
+Premium: 73,311 products (3.36%)
+
+Quality: 329,023 products (15.09%)
+
+Standard: 347,536 products (15.94%)
+
+Basic: 1,430,838 products (65.61%)
+
+Unknown: NaN products (NaN%)
+
+4. Price Overview by Product Tier
+Premium:
+
+Product count: 73,311
+
+Average price: £35.70
+
+Median price: £17.00
+
+Quality:
+
+Product count: 329,023
+
+Average price: £36.45
+
+Median price: £16.87
+
+Standard:
+
+Product count: 347,536
+
+Average price: £42.34
+
+Median price: £17.00
+
+Basic:
+
+Product count: 1,430,838
+
+Average price: £69.08
+
+Median price: £20.83

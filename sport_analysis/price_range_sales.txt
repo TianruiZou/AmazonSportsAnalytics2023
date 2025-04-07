@@ -1,0 +1,43 @@
+Sales Distribution by Price Range:
+£0–50: 843,750 units (~95.3% of total sales)
+
+£50–100: 28,900 units (~3.3%)
+
+£100–150: 6,650 units (~0.8%)
+
+£150–200: 4,500 units (~0.5%)
+
+£200–250: 1,700 units (~0.2%)
+
+£250–300: 1,600 units (~0.2%)
+
+£300–350: 450 units (~0.05%)
+
+£350–400: 850 units (~0.1%)
+
+£400+: 800 units (~0.1%)
+
+Key Findings:
+Low-priced products (£0–50) dominate the market, accounting for over 95% of total sales.
+
+Mid-priced products (£50–200) contribute about 4.6% of total sales.
+
+High-priced products (over £200) account for only around 0.5% of sales.
+
+Implications:
+This analysis shows that:
+
+The primary consumer base for sports & outdoor products tends to prefer low-priced items.
+
+Sales drop significantly once the price exceeds £50.
+
+Products priced above £200 have very limited sales.
+
+These insights are highly useful for pricing strategy and product positioning.
+
+Recommendations:
+Focus on developing products priced below £50, as this is the strongest performing price segment.
+
+Be especially cautious with high-priced products (over £200) — success in this range requires precise market targeting.
+
+Consider expanding the product range within the £50–100 bracket, as it performs relatively well among mid- to low-priced products.

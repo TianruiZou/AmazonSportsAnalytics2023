@@ -1,0 +1,71 @@
+Data Distribution:
+High-sales products (≥1000/month): 106 items
+
+Normal-sales products (<1000/month): 154,371 items
+
+High-sales products account for only ~0.07% of the total
+
+Correlation Analysis:
+High-sales products:
+Pearson correlation coefficient: 0.0885 (p-value = 0.3668)
+
+Spearman correlation coefficient: 0.0778 (p-value = 0.4280)
+
+No significant correlation (p-value > 0.05)
+
+Normal-sales products:
+Pearson correlation coefficient: 0.0165 (p-value < 0.0001)
+
+Spearman correlation coefficient: -0.0107 (p-value < 0.0001)
+
+While statistically significant, the correlation is extremely weak
+
+Rating Distribution Characteristics:
+High-sales products:
+Ratings are concentrated between 3.5 and 5.0
+
+Most products are rated between 4.3 and 4.6
+
+Almost no products are rated below 3.5
+
+Normal-sales products:
+Much broader distribution, ranging from 1.0 to 5.0
+
+Distribution is right-skewed, with most ratings between 4.0 and 4.7
+
+A very large number of products have a perfect rating of 5.0 (27,360 items)
+
+Implications:
+High-sales products generally have higher ratings (mostly above 3.5)
+
+However, there is no strong linear correlation between rating and sales
+
+Ratings of high-sales products are more tightly concentrated in the high range
+
+For products with monthly sales under 1000, the correlation analysis shows:
+
+Correlation Results (Normal-Sales Products):
+Pearson correlation coefficient: 0.0165
+
+Indicates an extremely weak positive correlation between rating and sales
+
+Spearman correlation coefficient: -0.0107
+
+Indicates an extremely weak negative correlation between rating and sales
+
+Both p-values are very small (< 0.0001), meaning these weak correlations are statistically significant, but practically negligible
+
+Generated Visualizations:
+stars_sales_correlation.png:
+Shows scatter plot with regression line between rating and sales
+
+stars_avg_sales.png:
+Compares average sales by different rating levels
+
+Key Insights:
+The correlation between rating and sales is extremely weak, almost negligible
+
+This suggests that customer purchasing decisions may not heavily depend on product ratings
+
+Other factors — such as price, brand, product description, or marketing — might have a greater influence on sales
+

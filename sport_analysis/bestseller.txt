@@ -1,0 +1,70 @@
+Best Seller Product Proportion:
+Only 0.04% of all products are labeled as Best Sellers (362 Best Sellers out of 819,920 products),
+which indicates that the Best Seller label is extremely rare.
+
+Price Comparison:
+
+Average price of Best Seller products: £30.39
+
+Average price of regular products: Higher than Best Sellers
+
+Cohen's d = -0.3769, indicating that Best Seller products are actually slightly cheaper
+
+Mann-Whitney U test shows the difference is statistically significant (p < 0.0001)
+
+Rating Comparison:
+
+Average rating of Best Sellers: 4.37
+
+Average rating of regular products: Lower
+
+Cohen's d = 2.9129, indicating a very large difference
+
+Best Seller ratings are more concentrated in the high-score range
+
+Review Count Comparison:
+
+Best Seller products have significantly more reviews
+
+Cohen's d = 0.6388, indicating a moderate difference
+
+Mann-Whitney U test shows the difference is statistically significant
+
+Monthly Sales Comparison:
+
+Best Seller products have much higher monthly sales
+
+Cohen's d = 0.7648, indicating a large difference
+
+Mann-Whitney U test shows the difference is statistically significant
+
+Key Conclusions:
+There are significant differences between Best Seller and regular products across all metrics.
+Best Seller products tend to have the following characteristics:
+
+Moderate pricing (slightly lower than regular products)
+
+Very high ratings (average of 4.37)
+
+More reviews
+
+Significantly higher monthly sales
+
+Category Distribution:
+
+The proportion of Best Seller products varies greatly by category
+
+Some categories are more likely to contain Best Seller products
+
+Recommendations:
+
+Sellers can aim to achieve Best Seller status by:
+
+Improving product quality (to gain higher ratings)
+
+Adjusting pricing (Best Sellers tend to be more affordable)
+
+Boosting product visibility (to increase review count)
+
+Focusing on categories with a higher proportion of Best Sellers
+

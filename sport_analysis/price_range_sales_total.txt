@@ -1,0 +1,102 @@
+Sales Statistics by Price Range:
+£0–50
+
+Total Sales: 843,750 units
+
+Product Count: 617,288 items
+
+Average Sales: 1.37 units per item
+
+£50–100
+
+Total Sales: 28,900 units
+
+Product Count: 82,645 items
+
+Average Sales: 0.35 units per item
+
+£100–150
+
+Total Sales: 6,650 units
+
+Product Count: 30,796 items
+
+Average Sales: 0.22 units per item
+
+£150–200
+
+Total Sales: 4,500 units
+
+Product Count: 18,965 items
+
+Average Sales: 0.24 units per item
+
+£200–250
+
+Total Sales: 1,700 units
+
+Product Count: 13,587 items
+
+Average Sales: 0.13 units per item
+
+£250–300
+
+Total Sales: 1,600 units
+
+Product Count: 10,890 items
+
+Average Sales: 0.15 units per item
+
+£300–350
+
+Total Sales: 450 units
+
+Product Count: 6,943 items
+
+Average Sales: 0.06 units per item
+
+£350–400
+
+Total Sales: 850 units
+
+Product Count: 5,567 items
+
+Average Sales: 0.15 units per item
+
+£400+
+
+Total Sales: 800 units
+
+Product Count: 33,601 items
+
+Average Sales: 0.02 units per item
+
+Key Findings:
+Total Sales:
+The £0–50 price range dominates the market, contributing over 95% of total sales.
+
+The £50–100 range ranks second, but sales are significantly lower than the low-price segment.
+
+Sales drop sharply for products priced over £100.
+
+Product Count:
+The £0–50 range also contains the largest number of products, accounting for over 75% of all listings.
+
+The £50–100 range ranks second in product count.
+
+As price increases, product count decreases.
+
+Average Sales:
+Products in the £0–50 range have the highest average sales at 1.37 units per item.
+
+All other price ranges have an average sales rate below 0.35 units/item.
+
+Products priced above £300 show a notably low average sales rate.
+
+Recommendations:
+Focus on product development within the £0–50 range, as it is the most profitable and best-selling price segment.
+
+For products in the £50–100 range, although the average sales are low, the product count is high — so consider optimizing product quality, price, or visibility to improve performance.
+
+For high-priced products (£200+), exercise caution — success in this segment likely depends on precise market targeting and refined marketing strategies.
+
