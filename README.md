@@ -1,90 +1,94 @@
-# Amazon Product Data Analysis
+Amazon Sports Analytics 2023
+This project focuses on analyzing sports-related product data from Amazon UK, aiming to uncover trends, pricing strategies, and other key performance insights through data cleaning, exploration, and advanced analysis.
 
-This project analyzes Amazon product data with a focus on sports and outdoor products. It includes data cleaning, visualization, and advanced analysis of product performance metrics.
+Project Overview
+Using real-world data scraped from Amazon UK in October 2023, this project provides insights into product categories, pricing distribution, and potential predictors of product success. The goal is to demonstrate end-to-end data analysis capabilities using Python and commonly used data science libraries.
 
-## Project Structure
+Dataset
+Source: https://www.kaggle.com/datasets/asaniczka/amazon-uk-products-dataset-2023?resource=download
 
-```
-.
-├── analyze_csv.py          # CSV file analysis
-├── check_categories.py     # Category checking
-├── clean_and_save_data.py  # Data cleaning and saving
-├── clean_data.py          # Basic data cleaning
-├── further_clean_data.py  # Advanced data cleaning
-├── merge_excel_files.py   # Excel file merging
-├── sport_analysis.py      # Sports product analysis
-├── sport_advanced_analysis.py  # Advanced sports product analysis
-└── visualization_analysis.py   # Data visualization
-```
+Size: Over 2.2 million records
 
-## Features
+Fields: Product name, category, brand, price, rating, review count, and more.
 
-- Data cleaning and preprocessing
-- Product category analysis
-- Sales performance visualization
-- Rating distribution analysis
-- Price range analysis
-- Advanced statistical analysis
-- Composite scoring system
+Project Structure
+. ├── data/
+│ ├── raw/ # Original dataset (not included due to size)
+│ └── processed/ # Cleaned and prepared data
+├── notebooks/
+│ ├── data_cleaning.ipynb # Data preprocessing and cleaning
+│ ├── exploratory_analysis.ipynb # Exploratory Data Analysis (EDA)
+│ └── advanced_analysis.ipynb # Feature analysis / modeling
+├── outputs/ # Visualizations and summary images
+├── src/
+│ ├── data_cleaning.py # Python scripts for data wrangling
+│ ├── data_visualization.py # Visuals generation
+│ └── advanced_analysis.py # Advanced analysis / modeling
+├── requirements.txt # Project dependencies
+└── README.md # Project documentation
 
-## Requirements
+How to Run the Project
+Clone the repository:
 
-- Python 3.8+
-- pandas
-- numpy
-- matplotlib
-- seaborn
-- scipy
-- openpyxl
+git clone https://github.com/TianruiZou/AmazonSportsAnalytics2023.git
 
-## Installation
+(Optional) Create a virtual environment:
 
-1. Clone the repository:
-```bash
-git clone https://github.com/yourusername/amazon-product-analysis.git
-cd amazon-product-analysis
-```
+python -m venv venv
+source venv/bin/activate # On Windows: venv\Scripts\activate
 
-2. Install dependencies:
-```bash
+Install required packages:
+
 pip install -r requirements.txt
-```
 
-## Usage
+Run the analysis notebooks:
 
-1. Data Preparation:
-```bash
-python merge_excel_files.py
-python clean_data.py
-python further_clean_data.py
-python clean_and_save_data.py
-```
+Open Jupyter and start from notebooks/data_cleaning.ipynb.
 
-2. Analysis:
-```bash
-python visualization_analysis.py
-python sport_analysis.py
-python sport_advanced_analysis.py
-```
+Technologies Used
+Language: Python 3
 
-3. Verification:
-```bash
-python check_categories.py
-python analyze_csv.py
-```
+Libraries:
 
-## Output
+pandas, numpy (data processing)
 
-All analysis results and visualizations are saved in the `output/` directory.
+matplotlib, seaborn (data visualization)
 
-## License
+scikit-learn (machine learning)
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+Jupyter Notebook (analysis interface)
 
-## Contributing
+Key Analysis Steps
+Data Cleaning:
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request 
+Removed duplicates and handled missing values
+
+Standardized price and rating formats
+
+Exploratory Data Analysis:
+
+Analyzed pricing trends, category distributions, and product popularity
+
+Visualized review scores, brand prevalence, and more
+
+Advanced Analysis:
+
+Identified high-performing categories
+
+Explored potential correlations between price, ratings, and sales estimates
+
+Sample Visualizations
+Here are a few examples of insights produced in this project:
+
+(Figure 1: Sales trend across top product categories)
+(Figure 2: Product price distribution – log scale)
+
+Note: Images should be saved in the outputs/ directory and linked here.
+
+License
+This project is licensed under the MIT License. See the LICENSE file for more information.
+
+Acknowledgments
+Kaggle dataset author: @asaniczka
+
+Thanks to the open-source community and Python ecosystem that made this project possible.
